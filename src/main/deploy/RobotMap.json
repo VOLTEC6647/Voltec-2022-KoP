@@ -1,1 +1,34 @@
-{}
+{
+	"chassis": {
+		"victors": [
+			{
+				"name": "frontLeft",
+				"port": 0,
+				"limiter": 0.85,
+				"inverted": true,
+				"neutralMode": "Coast"
+			},
+			{
+				"name": "frontRight",
+				"port": 1,
+				"limiter": 0.85,
+				"inverted": true,
+				"neutralMode": "Coast"
+			},
+			{
+				"name": "backLeft",
+				"port": 2,
+				"limiter": 0.85,
+				"inverted": false,
+				"neutralMode": "Coast"
+			},
+			{
+				"name": "backRight",
+				"port": 3,
+				"limiter": 0.85,
+				"inverted": false,
+				"neutralMode": "Coast"
+			}
+		]
+	}
+}

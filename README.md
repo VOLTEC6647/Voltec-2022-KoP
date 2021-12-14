@@ -1,7 +1,8 @@
-# voltec-2020-quickstart
+# voltec-2022-KoP
 
-FRC Team #6647's 'quick start' project, to be used as a template for future projects.
-Already includes [lib6647](https://github.com/VOLTEC6647/lib6647) and some [vendor libraries](vendordeps).
+<p align="left"><a  href="https://github.com/VOLTEC6647/voltec-2020-robot"  target="_blank"><img  src="https://i.imgur.com/F4focyC.png"></a></p>
+
+FRC Team #6647's 2022 Kit of Parts Chassis' code. 
 
 ## License
 

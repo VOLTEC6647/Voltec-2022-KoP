@@ -6,6 +6,7 @@ package org.usfirst.frc6647.robot;
 
 import java.util.logging.Logger;
 
+import org.usfirst.frc6647.subsystems.Chassis;
 import org.usfirst.lib6647.loops.Loop;
 import org.usfirst.lib6647.loops.LoopContainer;
 import org.usfirst.lib6647.oi.JController;
@@ -21,14 +22,17 @@ import edu.wpi.first.wpilibj.GenericHID.Hand;
 public class RobotContainer extends LoopContainer {
 	// Declare SuperSubsystems to initialize.
 	// e.g. 'private Chassis chassis;'
+	private Chassis chassis;
 
 	@Override
 	public void initSubsystems() {
 		// Initialize every SuperSubsystem.
 		// e.g. 'chassis = new Chassis();'
+		chassis = new Chassis();
 
 		// Register each initialized SuperSubsystem.
 		// e.g. 'registerSubsystems(chassis, ...);'
+		registerSubsystems(chassis);
 	}
 
 	@Override
